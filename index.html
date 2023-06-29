@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color:#4b4b4b;
+        margin: 0px;
+        padding: 0;
+    }
+    .menu nav {
+        float: left;
+    }
+    .menu nav ul {
+        list-style: none;
+        overflow: hidden; 
+    }
+    .menu nav ul li {
+        float: left;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+    }
+    .menu nav ul li a {
+        display: block; 
+        padding: 20px;
+        color: #fff;
+        text-decoration: none;
+    }
+    .menu nav ul li:hover {
+        background: #29338d;
+    }
+
+
+   
+
+
+
+
+
+
+    /* === removing default button style ===*/
+
+
+.button {
+  margin: 0;
+  height: auto;
+  background: transparent;
+  padding: 0;
+  border: none;
+}
+
+/* button styling */
+.button {
+  --border-right: 6px;
+  --text-stroke-color: rgba(255,255,255,0.6);
+  --animation-color: #37FF8B;
+  --fs-size: 2em;
+  letter-spacing: 3px;
+  text-decoration: none;
+  font-size: var(--fs-size);
+  font-family: "Arial";
+  position: relative;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: 1px var(--text-stroke-color);
+}
+/* this is the text, when you hover on button */
+
+.hover-text {
+  position: absolute;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  content: attr(data-text);
+  color: var(--animation-color);
+  width: 0%;
+  inset: 0;
+  border-right: var(--border-right) solid var(--animation-color);
+  overflow: hidden;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-text-stroke: 1px var(--animation-color);
+}
+/* hover */
+.button:hover .hover-text {
+  width: 100%;
+  -webkit-filter: drop-shadow(0 0 23px var(--animation-color));
+          filter: drop-shadow(0 0 23px var(--animation-color))
+}
+
+</style>
+<body>
+    
+<center>
+<img src="C:\Users\6182\Pictures\sp.png"width="500"height="300">
+</center>
+
+<div class="menu">
+    <nav>
+     <ul>
+        <li><a href="C:\Users\6182\Documents\index.servicios peri.html\index.html">INICIO</a></li>
+        <li><a href="C:\Users\6182\Documents\index.servicios peri.html\meseros.html">MESEROS</a></li>
+        <li><a href="C:\Users\6182\Documents\index.servicios peri.html\tacos.html">TACOS</a></li>
+        <li><a href="C:\Users\6182\Documents\index.servicios peri.html\gorditas.html">GORDITAS</a></li>
+     </ul>
+    </nav>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+    <u><a href="https://wa.me/524425718011"></ul>
+    <button data-text="Awesome" class="button"> 
+        <span class="actual-text">&nbsp;WhatsApp&nbsp;</span>
+        <span class="hover-text" aria-hidden="true">&nbsp;WhatsApp&nbsp;</span>
+    </button>
+    </a></ul>
+<br>    
+<br>
+ <u><a href="https://www.facebook.com/profile.php?id=100094131965241&mibextid=ZbWKwL"></u>
+<button data-text="Awesome" class="button"> 
+     <span class="actual-text">&nbsp;facebook&nbsp;</span>
+    <span class="hover-text" aria-hidden="true">&nbsp;facebook&nbsp;</span>
+</button>
+<br>
+<br>
+<u><a href="https://www.instagram.com/serviciosperis?igshid=MzRlODBiNWFlZA=="></u>
+<button data-text="Awesome" class="button"> 
+    <span class="actual-text">&nbsp;instagram&nbsp;</span>
+    <span class="hover-text" aria-hidden="true">&nbsp;instagram&nbsp;</span>
+</button>   
+
+  
+</body>
+</html> 
+  
+
